@@ -603,8 +603,9 @@ namespace polishing
            //左圆角圆心Z坐标
           double Z_circleCenter = B_p/Math.Abs(B_p)*yuan_r * Math.Cos(B_p) + Z_p;
 
+
          //左圆角圆心左边取一位小数位
-           double R_circleCenter=Math.Truncate((Math.Abs(X_circleCenter)*10))/10;
+           double R_circleCenter=Math.Truncate(Math.Abs(X_circleCenter)*10)/10;
 
           for (int i = 0; i < a + 1; i++)//B角度，
           {
@@ -887,7 +888,9 @@ namespace polishing
                else if (curvature_compensate == 2)
                    curvature_coefficient = 1 / curvature_coefficient;
                else
-               { }
+               { 
+
+               }
 
                if (i > (Dp / 2) / dist)
                curvature_coefficient = 1;

@@ -112,6 +112,7 @@ namespace POLISH2
         public static double[] intere_A;///干涉检查传入模具参数参数
         public static List<double> Compesent_rate;//速度倍率补偿文件
         public static bool input_compesentfile_flag;//导入倍率件标志
+        public static int Device_number;//设备出厂编号，记录在Excel系统参数文件。
        // public static double 
        //  public System.Threading.Thread dectect;
 
@@ -266,7 +267,7 @@ namespace POLISH2
                 z_devia_value = Convert.ToDouble(myDataSet.Tables[0].Rows[25][1]);//Z轴回零偏移量，mm
                 z_axi_first_jogdownfeed = Convert.ToDouble(myDataSet.Tables[0].Rows[26][1]);//抛光Z轴下降手动速度；
                 B_axi_Center_Polish_head_distance = Convert.ToDouble(myDataSet.Tables[0].Rows[28][1]);//在零位时，B轴回转中心到抛光头触碰到第二个限位的距离；
-
+                Device_number = Convert.ToInt32(myDataSet.Tables[0].Rows[29][1]);//设备出厂编号
             }
             catch (Exception err)
             {
@@ -4219,6 +4220,7 @@ namespace POLISH2
                 string month = sr.ReadLine();
                 string day = sr.ReadLine();
                 string remain_day = sr.ReadLine();
+                string device_num = sr.ReadLine();
                 sr.Close();
 /*
         
@@ -4229,13 +4231,13 @@ namespace POLISH2
  * 1
  * 60            
   */
-                if (encryp_stauts == 1)
+                if (encryp_stauts == 1)//解密
                 {
                     year = Myencry.Decrypt(year, "Jingdian");
                     month = Myencry.Decrypt(month, "Jingdian");
                     day = Myencry.Decrypt(day, "Jingdian");
                     remain_day = Myencry.Decrypt(remain_day, "Jingdian");
-
+                    device_num = Myencry.Decrypt(device_num, "Jingdian");
                 }
 
 
@@ -4299,12 +4301,21 @@ namespace POLISH2
 
                 }
 
+                bool device_code = true;
+                if (Convert.ToInt32(device_num) != Device_number)
+                {
+                    device_code = false;
+                }
 
+
+
+
+               //加密
                 year = Myencry.Encrypt(year, "Jingdian");
                 month = Myencry.Encrypt(month, "Jingdian");
                 day = Myencry.Encrypt(day, "Jingdian");
                 remain_day = Myencry.Encrypt(remain_day, "Jingdian");
-
+                device_num = Myencry.Encrypt(device_num, "Jingdian");
 
                 System.IO.StreamWriter wr = new System.IO.StreamWriter(TimeFile);
                 wr.WriteLine("1");//加密存贮
@@ -4312,11 +4323,13 @@ namespace POLISH2
                 wr.WriteLine(month);
                 wr.WriteLine(day);
                 wr.WriteLine(remain_day);
+                wr.WriteLine(device_num);
                 wr.Close();
 
 
                 //    WriteTxt(TimeFile, encryt_time);
-
+                if (device_code == false)//
+                    return false;
 
                 if (remain_day2 < 1)
                 {
@@ -4330,6 +4343,8 @@ namespace POLISH2
 
                     return true;
                 }
+
+
             }
            catch
            {
