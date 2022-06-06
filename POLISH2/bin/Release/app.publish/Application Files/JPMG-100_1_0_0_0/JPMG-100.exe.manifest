@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="JPMG-100.exe" version="1.0.0.0" publicKeyToken="594771b2585289e4" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="LOGO1.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="JPMG-100" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="JPMG-100.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.PCOMMSERVERLib.dll" size="126976">
+      <assemblyIdentity name="Interop.PCOMMSERVERLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wGj26VOPdWct95Gr6iOqWCVVKeSenbzh2MYIjRJtpDk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IPAddressControlLib.dll" size="24576">
+      <assemblyIdentity name="IPAddressControlLib" version="1.1.3039.21560" publicKeyToken="55E96405D8FD6D61" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>P4nk+f1iilYas8oVL5hSNxwUnLkxq4jjP9+xCev03GA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JPMG-100.exe" size="836608">
+      <assemblyIdentity name="JPMG-100" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WefNw1M8XVoE3wH3xlR6ncErFB6oq6Q3XewoVdmG8Wc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZedGraph.dll" size="307200">
+      <assemblyIdentity name="ZedGraph" version="5.1.4.31904" publicKeyToken="02A83CBD123FCD60" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>B62l4TrM7vHcLuhKR0Bia7PZ5Hu3C05j1Q83eYF0oXA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="JPMG-100.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LOGO1.ico" size="165662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8/kFFibRmcadAJmYN/hn2gI7h9YouV75yGFdSLqaxIs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-74RLCAG\27360" issuerKeyHash="4bf7b40a5696a59b7e7b6071b1d88095b78be099" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qJwl+W4SP2bfI7KwzhIGaidj+L/eRsehpfpvf+PP9J4=</DigestValue></Reference></SignedInfo><SignatureValue>L3lLcfC2AGCK9r6/ColLQNWegl3IRpMu5wJWUCLljFnRt24B0HQj5TE+hppNoVqRvdvodjS1Ts+ijwPB7OveM+/X2W/r5PWy/oPM9Td0r4n1yAhFieJM2j2DQZeyhLW5NYwNXQjlNhvY1FbyVlSfxtYNUlpojXso/wb3gQx1Pog=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ygdVT3oteFiO0qOJOll+69ZpG/csbyHK98TS80L4W6d5y4a7eiBfL6dxYwq/9hZnlEnIdFI9VI+jKn8K8yTHYZLeC16TVWIlGqGyK6Dz6TW0fkJuZ514/LIcEmP3hYfPkScHxrb0nGggIS/6+L/56wCNC2GoI8qxqRdIET5rvrk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9ef4cfe37f6ffaa5a1c746debff863276a0612ceb0b223df663f126ef9259ca8" Description="" Url=""><as:assemblyIdentity name="JPMG-100.exe" version="1.0.0.0" publicKeyToken="594771b2585289e4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-74RLCAG\27360</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AdcDONWvAqi6YSsVFW6ihrfFgJMe3gbDn4QlqytL5u0=</DigestValue></Reference></SignedInfo><SignatureValue>ipooMJlz4QBu/DDLIrdurq8FOrrgp7mGYvijNLsfdCZQ3Uwgmud9mjo+mA7YhlMg+cXDXQES4pkDcIMiLOaX+CNNJWckbRgDtDPRBTSHEUbEjWIfbVZZJCBrBrXXv6yFEnXzeJuDTqcwmR9BIkP2mYYR+2Jtwh2IBXINIid+GZY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ygdVT3oteFiO0qOJOll+69ZpG/csbyHK98TS80L4W6d5y4a7eiBfL6dxYwq/9hZnlEnIdFI9VI+jKn8K8yTHYZLeC16TVWIlGqGyK6Dz6TW0fkJuZ514/LIcEmP3hYfPkScHxrb0nGggIS/6+L/56wCNC2GoI8qxqRdIET5rvrk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQHVCAlelckapGJGeWTLFBTTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADcANABSAEwAQwBBAEcAXAAyADcAMwA2ADAwHhcNMTkwOTEwMDkxNTI1WhcNMjAwOTA5MTUxNTI1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADcANABSAEwAQwBBAEcAXAAyADcAMwA2ADAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMoHVU96LXhYjtKjiTpZfuvWaRv3LG8hyvfE0vNC+FunecuGu3ogXy+ncWMKv/YWZ5RJyHRSPVSPoyp/CvMkx2GS3gtek1ViJRqhsiug8+k1tH5CbmedePyyHBJj94WHz5EnB8a29JxoICEv+vi/+esAjQthqCPKsakXSBE+a765AgMBAAEwDQYJKoZIhvcNAQELBQADgYEACHcMNVf98uoxo3SVLtxGB2FJe91+lj9UGHdCYj3rAk4k1YJkhvikXvM8Kz8d6zAM8ixA6sRTbKw8pQCM3za2svzUvgcvC7p1W52tMRPee8zPEPhtIKJ3PQMDXeG1b3+mbdwArvtBdv5LYsaaV8op2QTQVvy/BQA77O+Kd1o5kts=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

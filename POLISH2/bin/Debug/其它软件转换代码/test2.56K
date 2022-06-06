@@ -1,0 +1,14 @@
+; Created by PMAC Win32 Driver from:D:\POLISH2-Z\POLISH2\bin\Debug\其它软件转换代码\test2.txt
+;
+;D:\POLISH2-Z\POLISH2\bin\Debug\其它软件转换代码\test2.txt
+OPEN PROG 1;1
+CLEAR;2
+G90 G01;3
+X-39.9215  B-34.8433  F200.0000  ;4
+WHILE(ABS(-399214.5757-M162/32/96)>100);6
+P10=0;7
+DWELL 10;8
+ENDWHILE;9
+P10=1;10
+CLOSE;11
+CLOSE

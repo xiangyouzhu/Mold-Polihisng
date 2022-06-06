@@ -1,0 +1,23 @@
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\bin\Release\PAPM-50.exe.config
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\bin\Release\PAPM-50.exe
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\bin\Release\PAPM-50.pdb
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\bin\Release\Interop.PCOMMSERVERLib.dll
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\bin\Release\ZedGraph.dll
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\bin\Release\zh-CN\ZedGraph.resources.dll
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\obj\Release\POLISH2.Form1.resources
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\obj\Release\POLISH2.Properties.Resources.resources
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\obj\Release\PAPM-50.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\obj\Release\PAPM-50.exe
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\obj\Release\PAPM-50.pdb
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\obj\Release\PAPM-50.csprojResolveAssemblyReference.cache
+D:\POLISH2-Z\POLISH2\bin\Release\PAPM-50.exe.config
+D:\POLISH2-Z\POLISH2\obj\Release\PAPM-50.exe
+D:\POLISH2-Z\POLISH2\obj\Release\PAPM-50.pdb
+D:\POLISH2-Z\POLISH2\bin\Release\PAPM-50.exe
+D:\POLISH2-Z\POLISH2\bin\Release\PAPM-50.pdb
+D:\POLISH2-Z\POLISH2\bin\Release\zh-CN\ZedGraph.resources.dll
+D:\POLISH2-Z\POLISH2\obj\Release\PAPM-50.csprojResolveAssemblyReference.cache
+D:\POLISH2-Z\POLISH2\obj\Release\POLISH2.Form1.resources
+D:\POLISH2-Z\POLISH2\obj\Release\POLISH2.Properties.Resources.resources
+D:\POLISH2-Z\POLISH2\obj\Release\PAPM-50.csproj.GenerateResource.Cache
+D:\POLISH2-Z\POLISH2\bin\Release\IPAddressControlLib.dll

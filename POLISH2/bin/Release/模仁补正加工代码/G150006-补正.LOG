@@ -1,0 +1,20 @@
+;Log created by PMAC Win32 Driver from file: D:\Documents\Visual Studio 2013\Projects\Polish\Polish\bin\Debug\模仁补正加工代码\G150006-补正.txt
+;
+000001:            Processing Macro File: D:\Documents\Visual Studio 2013\Projects\Polish\Polish\bin\Debug\模仁补正加工代码\G150006-补正.txt
+000002:            $60450
+000003:            Total Lines: 712
+000004:            Compiling for PLCC: D:\Documents\Visual Studio 2013\Projects\Polish\Polish\bin\Debug\模仁补正加工代码\G150006-补正.PMA = D:\Documents\Visual Studio 2013\Projects\Polish\Polish\bin\Debug\模仁补正加工代码\G150006-补正.56K
+000005:            PLCC Compiling PMAC file: D:\Documents\Visual Studio 2013\Projects\Polish\Polish\bin\Debug\模仁补正加工代码\G150006-补正.PMA
+000006:            Success in Compiling to output file: D:\Documents\Visual Studio 2013\Projects\Polish\Polish\bin\Debug\模仁补正加工代码\G150006-补正.56K
+000007:            No PLCC(s) were compiled
+000008:            Downloading file: D:\Documents\Visual Studio 2013\Projects\Polish\Polish\bin\Debug\模仁补正加工代码\G150006-补正.56K
+000009:            **PMAC Error 3, Data error or unrecognized command.
+000010:              File: D:\Documents\Visual Studio 2013\Projects\Polish\Polish\bin\Debug\模仁补正加工代码\G150006-补正.txt
+000011:              Line: 4, "WHILE(P25<=1);4"
+000012:            **PMAC Error 9, Program structural error.
+000013:              File: D:\Documents\Visual Studio 2013\Projects\Polish\Polish\bin\Debug\模仁补正加工代码\G150006-补正.txt
+000014:              Line: 357, "ENDWHILE;357"
+000015:            Downloaded 364 lines in 527 msecs
+000016:            Writing macro dictionary table: D:\Documents\Visual Studio 2013\Projects\Polish\Polish\bin\Debug\模仁补正加工代码\G150006-补正.TBL
+000017:            Total Warnings: 0
+000018:            Total Errors: 2

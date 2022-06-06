@@ -1,0 +1,12 @@
+d:\documents\visual studio 2013\Projects\POLISH2\POLISH2\bin\Release\POLISH2.exe.config
+d:\documents\visual studio 2013\Projects\POLISH2\POLISH2\bin\Release\POLISH2.exe
+d:\documents\visual studio 2013\Projects\POLISH2\POLISH2\bin\Release\POLISH2.pdb
+d:\documents\visual studio 2013\Projects\POLISH2\POLISH2\bin\Release\Interop.PCOMMSERVERLib.dll
+d:\documents\visual studio 2013\Projects\POLISH2\POLISH2\bin\Release\ZedGraph.dll
+d:\documents\visual studio 2013\Projects\POLISH2\POLISH2\bin\Release\zh-CN\ZedGraph.resources.dll
+d:\documents\visual studio 2013\Projects\POLISH2\POLISH2\obj\Release\POLISH2.Form1.resources
+d:\documents\visual studio 2013\Projects\POLISH2\POLISH2\obj\Release\POLISH2.Properties.Resources.resources
+d:\documents\visual studio 2013\Projects\POLISH2\POLISH2\obj\Release\POLISH2.csproj.GenerateResource.Cache
+d:\documents\visual studio 2013\Projects\POLISH2\POLISH2\obj\Release\POLISH2.exe
+d:\documents\visual studio 2013\Projects\POLISH2\POLISH2\obj\Release\POLISH2.pdb
+d:\documents\visual studio 2013\Projects\POLISH2\POLISH2\obj\Release\POLISH2.csprojResolveAssemblyReference.cache

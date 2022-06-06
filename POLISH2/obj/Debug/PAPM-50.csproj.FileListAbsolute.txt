@@ -1,0 +1,31 @@
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\bin\Debug\ZedGraph.dll
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\bin\Debug\zh-CN\ZedGraph.resources.dll
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\obj\Debug\POLISH2.Form1.resources
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\obj\Debug\POLISH2.Properties.Resources.resources
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\obj\Debug\PAPM-50.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\bin\Debug\PAPM-50.exe.config
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\bin\Debug\PAPM-50.exe
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\bin\Debug\PAPM-50.pdb
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\obj\Debug\PAPM-50.exe
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\obj\Debug\PAPM-50.pdb
+D:\Documents\Visual Studio 2013\Projects\POLISH2\POLISH2\obj\Debug\PAPM-50.csprojResolveAssemblyReference.cache
+C:\硬盘拷贝\Projects\POLISH2\POLISH2\bin\Debug\PAPM-50.exe.config
+C:\硬盘拷贝\Projects\POLISH2\POLISH2\obj\Debug\PAPM-50.exe
+C:\硬盘拷贝\Projects\POLISH2\POLISH2\obj\Debug\PAPM-50.pdb
+C:\硬盘拷贝\Projects\POLISH2\POLISH2\bin\Debug\PAPM-50.exe
+C:\硬盘拷贝\Projects\POLISH2\POLISH2\bin\Debug\PAPM-50.pdb
+C:\硬盘拷贝\Projects\POLISH2\POLISH2\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\硬盘拷贝\Projects\POLISH2\POLISH2\obj\Debug\PAPM-50.csprojResolveAssemblyReference.cache
+C:\硬盘拷贝\Projects\POLISH2\POLISH2\obj\Debug\POLISH2.Form1.resources
+C:\硬盘拷贝\Projects\POLISH2\POLISH2\obj\Debug\POLISH2.Properties.Resources.resources
+C:\硬盘拷贝\Projects\POLISH2\POLISH2\obj\Debug\PAPM-50.csproj.GenerateResource.Cache
+D:\POLISH2-Z\POLISH2\bin\Debug\PAPM-50.exe.config
+D:\POLISH2-Z\POLISH2\obj\Debug\PAPM-50.exe
+D:\POLISH2-Z\POLISH2\obj\Debug\PAPM-50.pdb
+D:\POLISH2-Z\POLISH2\bin\Debug\PAPM-50.exe
+D:\POLISH2-Z\POLISH2\bin\Debug\PAPM-50.pdb
+D:\POLISH2-Z\POLISH2\bin\Debug\zh-CN\ZedGraph.resources.dll
+D:\POLISH2-Z\POLISH2\obj\Debug\PAPM-50.csprojResolveAssemblyReference.cache
+D:\POLISH2-Z\POLISH2\obj\Debug\POLISH2.Form1.resources
+D:\POLISH2-Z\POLISH2\obj\Debug\POLISH2.Properties.Resources.resources
+D:\POLISH2-Z\POLISH2\obj\Debug\PAPM-50.csproj.GenerateResource.Cache

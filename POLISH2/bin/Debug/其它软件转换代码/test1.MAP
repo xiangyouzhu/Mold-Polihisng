@@ -1,0 +1,16 @@
+;Map created by PMAC Win32 Driver from file: D:\POLISH2-Z\POLISH2\bin\Debug\其它软件转换代码\test1.txt
+;
+
+
+; DEFINES sorted by KEY --------------------------
+_DPRAMBASE_                      $0
+_DPRAMMAX_                       $0
+_DPRAMSIZE_                      $0
+_DPRAMUSERBASE_                  $0
+
+
+; DEFINES sorted by VALUE ------------------------
+$0                               _DPRAMBASE_
+$0                               _DPRAMMAX_
+$0                               _DPRAMSIZE_
+$0                               _DPRAMUSERBASE_
