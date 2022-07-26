@@ -794,8 +794,9 @@ namespace polishing
                Vc[i] = Math.Sqrt(Math.Abs(-Math.Pow(Vu, 2) + Math.Pow(Vs, 2)));
                Nc[i] = Math.Abs(18 / X[i]) * 30 / Math.PI * C_motor_scale_factor + C_motor_offset;
 
-               if (vc_flag == true)
-                   Nc[i] = constan_vc * C_motor_scale_factor + C_motor_offset;
+                if (vc_flag == true)
+                    //     Nc[i] = constan_vc * C_motor_scale_factor + C_motor_offset;
+                    Nc[i] = constan_vc;
            }
 
            for (int i = 0; i < a + 1; i++)//F1进给速度
